@@ -1,0 +1,258 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.starting-header{
+    background-color: #3882f6;
+    height: 140px;
+}
+.header{
+   /* border: 1px solid black;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo, .email{
+    font-weight: bold;
+    font-size: 20px;
+}
+.sign-in{
+    border-style: none;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+}
+.subs{
+    border-style: none;
+    color: #3882f6;
+    background-color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+}
+.flat-links{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.profile{
+    height: 200px;
+    width: 250px;
+   /* border: 1px solid black;*/
+    margin-top: 60px;
+    margin-left: 30px;
+    justify-content: center;
+}
+.file{
+    height: 50px;
+    width: 50px;
+   /* border: 1px solid black;*/
+    border-radius: 50%;
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    font-weight: bold;
+    font-size: 24px;
+}
+.date{
+    font-weight: lighter;
+    font-size: 15px;
+    font-style: italic;
+}
+.spotlight{
+  /*  border: 1px solid black;*/
+    width: 100px;
+    margin-left: 300px;
+    margin-top: -200px;
+}
+.spot{
+    color:#3882f6;
+    font-weight: bold;
+    font-size: 13px;
+}
+.title{
+   /* border: 1px solid black;*/
+    width: 500px;
+    margin-left: 300px;
+    margin-top: -20px;
+}
+.subtext{
+   /* border: 1px solid black;*/
+    width: 600px;
+    margin-left: 300px;
+}
+.image, .future, .bank, .diaspora{
+    /*border: 1px solid black;*/
+    width: 600px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+.left-text{
+    display: flex;
+    justify-content: flex-end;
+}
+ul{
+    list-style: none;
+}
+.green{
+    width: 600px;
+    margin-left: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: lightgreen;
+    padding: 20px;
+}
+.nigeria{
+   /* border: 1px solid black;*/
+    width: 600px;
+    margin-left: 300px;
+    padding: 14px;
+    margin-top: 15px;
+}
+.footer{
+    background-color: #03193b;
+    margin-top: 30px;
+    color: white;
+    height: 300px;
+}
+.imitation{
+    margin-left: 50px;
+   /* border: 1px solid white;*/
+    width: 400px;
+}
+.Who{
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    height: 50px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* images fading in the entry and exit of the page
+@media(prefers-reduced-motion: no-preference){
+img{
+    scale: .8; opacity: 0;
+   animation: fade-in linear;
+   animation-timeline: view();
+   animation-range: contain;
+}
+
+@keyframes fade-in{
+    
+    to{ scale: 1; opacity: 1;}  
+}
+}
+*/
+/*schrolling div from left to rifht or opposite
+.schroller[data-animated="true"]{
+    overflow: hidden;
+    overflow-x: scroll;
+    -webkit-mask: linear-gradient(
+        90deg,
+        transparent,
+        white 20%,
+        white 80%,
+        transparent
+    )
+    mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent)
+}
+.schroller[data-animated="true"]{
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scrolling linear;
+animation: scroll 20s linear;
+    animation: bg-shift linear;
+    animation-timeline: scroll(root)
+}
+.schroller[data-animated="true"]{
+    animation-direction: reverse;
+}
+@keyFrames bg-shift{
+    from{color: blue;}
+    to{color: red;}
+}
+@keyfframes schroll{
+    to{
+    tranform: translate(calc(-50% - 0.5rem)(-100%, -50%));
+    }
+*/
+/*header movements in th webpage
+.article-header{
+    display: grid;
+    place-items: center;
+    position: relative;
+    height: 100svh;
+    overflow-x: clip;
+    padding-block: 7rem;
+    margin-block-end: 3rem;
+
+    
+}
+.header-content{
+    animation: fade-out linear;
+    animation-timeline: view();
+    animation-range: exit -200px;
+    border: 2px solid yellow;
+}
+.header-image{
+    grid-column: 1 / -1;
+    position: absolute;
+    inset: 0;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+    object-fit: cover;
+    z-index: -1;
+
+    transform-origin: bottom;
+
+    animation: header-image-animation linear forwards;
+    animation-timeline: view();
+    animation-range: exit;
+}
+@keyframes fade-out{
+    to{opacity: 0; }
+}
+
+@keyframes header-image-animation{
+    25%{opacity:1;}
+    85%, 100%{opacity: 0;}
+}
+*/
